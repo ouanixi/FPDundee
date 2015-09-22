@@ -25,7 +25,7 @@ isEven :: Integer -> Bool
 isEven n
   | n `mod` 2 == 0 = True
   | otherwise      = False
-This works, but it is much too complicated. Can you see why?
+
 
 --Pairs
 sumPair :: (Int,Int) -> Int
